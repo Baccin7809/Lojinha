@@ -5,16 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja de iPhones, Xiaomis e Outros</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
+        <img height="95px" width="130px" src="design/SmartBlu.png">
         <h1>SmartBluTech</h1>
     </header>
 
     <div class="banner">
-        <img src="https://via.placeholder.com/1200x300" alt="Banner Loja">
+        <img src="design/capa.png" alt="Banner Loja">
     </div>
-
+    <nav>
+        <ul>
+            <li><a href="#iphones">iPhones</a></li>
+            <li><a href="#xiaomis">Xiaomis</a></li>
+            <li><a href="#outros">Outros</a></li>
+        </ul>
+    </nav>
+   
+   
+    
     <main>
         <section id="iphones" >
             <h2>iPhones</h2>
@@ -35,6 +46,22 @@
             <div class="product-grid">
                 <!-- Adicione os produtos de Outros aqui -->
             </div>
+        </section>
+
+        <section id="contact">
+            <h2>Entre em Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 
