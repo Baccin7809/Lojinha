@@ -69,4 +69,9 @@ document.addEventListener("DOMContentLoaded", () => {
     products.outros.forEach(product => {
         outrosContainer.innerHTML += createProductHTML(product);
     });
+
+
+
+
+
 });
